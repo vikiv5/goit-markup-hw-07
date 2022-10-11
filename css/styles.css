@@ -23,6 +23,7 @@ ul {
   padding-left: 0;
 }
 .link {
+  text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -40,6 +41,7 @@ body {
 /* link styles */
 .link {
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* hide heading */
 .visually-hidden {
@@ -476,6 +478,8 @@ body {
 .project-img :hover .project-details {
   transform: translateY(0);
 }
+/*partners*/
+
 .partners-list {
   display: flex;
   justify-content: center;
@@ -573,12 +577,6 @@ body {
   margin-right: 70px;
 }
 
-.foooter-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
 .footer-box {
   margin-right: 93px;
 }
