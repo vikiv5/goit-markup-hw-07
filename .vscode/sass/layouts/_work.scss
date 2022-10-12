@@ -9,10 +9,10 @@
     overflow: hidden;
   }
   .work-overlay-text {
+    @include font(14px, 700, 1.14);
+
     position: absolute;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    
     text-align: center;
     text-transform: uppercase;
     bottom: 0;
@@ -37,9 +37,8 @@
   }
   
   .pre-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.19;
+    @include font(36px, 700, 1.19);
+    
     text-align: center;
     margin-bottom: 50px;
   }

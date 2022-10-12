@@ -34,9 +34,8 @@
   }
   
   &__details {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.55;
+    @include font(18px, 400, 1.55);
+    
     color: var(--discription-text-color);
   
     position: absolute;
@@ -62,12 +61,10 @@
     border-right: 1px solid rgba(238, 238, 238, 1);
   
   &__title {
+    @include font(18px, 700, 2);
+
     margin-bottom: 4px;
     color: var(--primary-text-color);
-
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
     letter-spacing: 0.06em;
   }
   &__text {

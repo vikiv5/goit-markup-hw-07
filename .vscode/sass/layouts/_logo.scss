@@ -1,9 +1,8 @@
 .header-logo {
+  @include font(26px, 700, 1.19);
+
     display: block;
     font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
     color: var(--accent-color);
   }
   
@@ -12,10 +11,6 @@
   
   
   &__part {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
   }
 }
